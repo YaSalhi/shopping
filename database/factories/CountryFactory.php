@@ -2,10 +2,10 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use App\Modelscountry;
+use App\Models\country;
 use Faker\Generator as Faker;
 
-$factory->define(Modelscountry::class, function (Faker $faker) {
+$factory->define(country::class, function (Faker $faker) {
     return [
         //
     ];
